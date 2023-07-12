@@ -5,11 +5,15 @@ describe('Sign Up', () => {
   beforeEach(() => {
     home.goToHomePage()
   })
+  afterEach(() => {
+    signup.logoutUser();
+  })
+  
   it('Fill Sign Up using Main Button then Logout', () => {
         //home.goToHomePage();
         home.clickSignUpMainButton();
         signup.fillSignUpData();
-        signup.logoutUser();
+       // signup.logoutUser();
   })
 
   
@@ -17,7 +21,7 @@ describe('Sign Up', () => {
       //home.goToHomePage();
         home.clickSignUpFloatButton();
         signup.fillSignUpData();
-        signup.logoutUser();
+        //signup.logoutUser();
 })
 
 })
