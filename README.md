@@ -21,7 +21,7 @@
 git clone https://github.com/<your-username>/trio-project.git
 
 ## cd into the cloned repo
-cd cypress-example-phonecat
+cd trio-project
 
 ## install the node_modules
 npm install
