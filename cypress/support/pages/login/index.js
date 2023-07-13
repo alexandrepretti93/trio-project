@@ -7,7 +7,7 @@ class Login {
         passwordField: () => cy.get('[id=password]'),
         submitBtn: () => cy.get('[type=submit]'),
         welcomeTitle: () => cy.get('a').contains('Sign up'),
-        createFirstMicroAppBtn: () => cy.get('span').contains('Create your first microapp')
+        createNewMicroAppBtn: () => cy.get('span').contains('Create new microapp')
     }
 
     fillLoginData(){
@@ -21,7 +21,7 @@ class Login {
             cy.get('[type=submit]').contains('Continue').click({ force: true });
           })
           
-            this.elements.createFirstMicroAppBtn().should('be.visible');
+            this.elements.createNewMicroAppBtn().should('be.visible');
     }
 
     logoutUser(){

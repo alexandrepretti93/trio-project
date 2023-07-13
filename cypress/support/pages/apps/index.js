@@ -34,6 +34,15 @@ class Apps {
     goToRentCalculator(){
         this.elements.rentCalculator().click();
     }
+
+    goToReactBuildComponent(){
+        this.elements.reactAIGenerator().click();
+    }
+
+    goToBuildLink(){
+        cy.visit('https://www.microapp.io/build')
+    }
+
 }
 
 export default new Apps();
