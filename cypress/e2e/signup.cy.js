@@ -9,7 +9,7 @@ describe('Sign Up', () => {
     signup.logoutUser();
   })*/ //There is a bug when sign up a client 
   
-  it('Fill Sign Up using Main Button then Logout', () => {
+  it('Fill Sign Up using Main Button', () => {
         //home.goToHomePage();
         home.clickSignUpMainButton()
         signup.fillSignUpData()
@@ -17,7 +17,7 @@ describe('Sign Up', () => {
   })
 
   
-  it('Fill Sign Up using Floating Button then Logout', () => {
+  it('Fill Sign Up using Floating Button', () => {
       //home.goToHomePage();
         home.clickSignUpFloatButton()
         signup.fillSignUpData()
