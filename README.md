@@ -47,3 +47,6 @@ npx cypress open
 * [TestCollab Test Cases](https://testcollab.io/project/10981/)
 * [Video Recording for Bugs, Improvements and Test Cases](https://drive.google.com/file/d/1ZJRziHcHJQnIl6qeZrqXcoQM2ovygG0r/view?usp=sharing)
 
+### 6. JMeter Project
+* [Link](https://github.com/alexandrepretti93/trio-jmeter-project/)
+
