@@ -29,3 +29,12 @@ npm install
 ## start cypress
 npx cypress open
 ```
+
+### 4. Cypress Run
+
+* Go to E2E Testing
+* Choose Chrome Browser
+
+**A chrome browser you open with the project**
+
+* Go to Specs and run the tests
