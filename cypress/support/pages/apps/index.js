@@ -9,7 +9,7 @@ class Apps {
             mortgageCalculator: () => cy.get('div').contains('Mortgage calculator'),
             reactAIGenerator: () => cy.get('div').contains('React + Tailwind CSS AI Component Generator'),
             lineBreakerTool: () => cy.get('div').contains('Line Break Removal Tool'),
-            tipCalculator: () => cy.get('div').contains('Tip calculator'),
+            tipCalculator: () => cy.get('div').contains('Tip calculator')
         }
     
     ValidateAppsPageIsOpen(){

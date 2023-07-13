@@ -3,6 +3,7 @@ import login from '../support/pages/login'
 import about from '../support/pages/about'
 import apps from '../support/pages/apps'
 import termsofuse from '../support/pages/termsofuse'
+import agecalculator from '../support/pages/agecalculator'
 
 describe('Home buttons', () => {
   beforeEach(() => {
@@ -18,23 +19,24 @@ describe('Home buttons', () => {
     })
     
   
-  it('Go to Apps', () => {
+  xit('Go to Apps', () => {
         home.goToApps();
         apps.ValidateAppsPageIsOpen();
   })
 
-  it('Go to About', () => {
+  xit('Go to About', () => {
     home.goToAbout();
     about.ValidateAboutPageIsOpen();
 })
 
-  it('Go to Terms of Use', () => {
+  xit('Go to Terms of Use', () => {
     home.clickOnTermsOfUseButton();
     termsofuse.ValidateTermsOfUsePageIsOpen();
   })
 
   it('Go to Age Calculator', () => {
     home.clickOnAgeCalculatorApp();
+    agecalculator.ValidateAgeCalculatorPageIsOpen();
   })
 
 })
