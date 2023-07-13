@@ -4,8 +4,8 @@ class SignUp {
     elements ={
         welcomeTitle: () => cy.get('h1').contains('Welcome'),
         usernameField: () => cy.get('[id=username]'),
-        passwordField: () => cy.get('[id=email]'),
-        emailField: () => cy.get('[id=password]'),
+        emailField: () => cy.get('[id=email]'),
+        passwordField: () => cy.get('[id=password]'),
         submitBtn: () => cy.get('[type=submit]'),
         createFirstMicroAppBtn: () => cy.get('span').contains('Create your first microapp'),
         userPopMenu: () => cy.get('[aria-haspopup=menu]'),

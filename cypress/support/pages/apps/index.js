@@ -26,6 +26,14 @@ class Apps {
     goToAgeCalculator(){
         this.elements.ageCalculator().click();
     }
+
+    goToPaymentCalculator(){
+        this.elements.paymentCalculator().click();
+    }
+
+    goToRentCalculator(){
+        this.elements.rentCalculator().click();
+    }
 }
 
 export default new Apps();

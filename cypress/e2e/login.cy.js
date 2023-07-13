@@ -7,8 +7,8 @@ describe('Login', () => {
   })
   it('Login with right credentials', () => {
         //home.goToHomePage();
-        home.clickLoginButton();
-        login.fillLoginData();
+        home.clickLoginButton()
+        login.fillLoginData()
   })
 
 

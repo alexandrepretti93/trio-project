@@ -19,24 +19,24 @@ describe('Home buttons', () => {
     })
     
   
-  xit('Go to Apps', () => {
-        home.goToApps();
-        apps.ValidateAppsPageIsOpen();
+  it('Go to Apps', () => {
+        home.goToApps()
+        apps.ValidateAppsPageIsOpen()
   })
 
-  xit('Go to About', () => {
-    home.goToAbout();
-    about.ValidateAboutPageIsOpen();
+  it('Go to About', () => {
+    home.goToAbout()
+    about.ValidateAboutPageIsOpen()
 })
 
-  xit('Go to Terms of Use', () => {
-    home.clickOnTermsOfUseButton();
-    termsofuse.ValidateTermsOfUsePageIsOpen();
+  it('Go to Terms of Use', () => {
+    home.clickOnTermsOfUseButton()
+    termsofuse.ValidateTermsOfUsePageIsOpen()
   })
 
   it('Go to Age Calculator', () => {
-    home.clickOnAgeCalculatorApp();
-    agecalculator.ValidateAgeCalculatorPageIsOpen();
+    home.clickOnAgeCalculatorApp()
+    agecalculator.ValidateAgeCalculatorPageIsOpen()
   })
 
 })
