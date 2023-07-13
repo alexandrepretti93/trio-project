@@ -41,7 +41,7 @@ npx cypress open
 
 ### 5. Other informations
 
-* [Video recording - Solution](https://drive.google.com/file/d/1J4YMQwn05S7e6ZAW3hyHOEZ0WoYYeJrv/view?usp=sharing)
+* [Video recording - Solution](https://drive.google.com/file/d/1CZagfQ2rQ2arjHBt-CFLEiHbdC7ugxz0/view?usp=sharing)
 
 * [Trello Bugs and Improvements](https://trello.com/invite/b/0w13XHOf/ATTI343b51c4d5faa25e7b241fb2763a77c769F3C94E/trio-project)
 * [TestCollab Test Cases](https://testcollab.io/project/10981/)
